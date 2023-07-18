@@ -1,0 +1,99 @@
+## Important Terms
+
+- Shell : Command Line Interpreter.
+- Terminal : Text Input/Output Environment.
+- CMD : Is The Original Shell For Microsoft DOS Operating System.
+- PowerShell : After CMD.
+- Directory : Is a  Folder that you create on the system.
+
+## Abbreviation of Command Line
+
+- cd : Change Directory.
+- chdir : Change Directory.
+- md : Make Directory.
+- mkdir : Make Directory.
+- clear : Clear To Screen.
+- cls : Clear Screen.
+- ls : List All Directories Around Current Location (Specific To Linux & Mac & Cmder).
+- dir :  List All Directories Around Current Location.
+- move & rename : Rename The Directory ( Specific To Windows ).
+- move : Make Move And Rename At Same Time.
+- mv : Rename The Directory ( Specific To Linux ).
+- cp : Copy The Directory Name.
+- rm : Remove A Directory.
+- -r : Use It To Be Able To Copy Or Remove The Directory With All Content Of This Directory.
+- -d : Use To Delete Empty Directory.
+- echo : Create A File.txt And Put Data In It.
+- cat : Display The Data In The Terminal And  You Can Copy The File.txt
+- grep :  This is an abbreviation of Global Regular Expression Print 
+           This Use To Search For A Specific Line In A Files
+- touch : Create A File.txt
+- file : Use To Know Name Type If It Is A File Or txt Or What
+- osk: On Screen Keyboard.
+- su : Switch User
+- sudo : Superuser Do
+- passwd: Password
+
+## Orders
+
+- cd + directory name ⇒ Move To directory Name
+- cd + ..  ⇒ One Step Back
+- cd + :/ ⇒ Back To Initial Position (Back To Root)
+- mkdir + directory name ⇒ Make A New Directory
+- mkdir + ..\ + directory name ⇒ Create A Directory In The Parent Directory
+- mv + old directory name + new directory ⇒ Rename Directory Name
+- mv + directory name + .. ⇒ Move The Directory Back One Step
+- rename + old directory name + new directory name ⇒ Rename Directory Name
+- cp + -r + directory name + new directory name ⇒ Copy The Directory Name And With All Content Of The Directory
+- order shortcut + - - help ⇒ Give You All Info About This Shortcut.
+- rm + -r + directory name ⇒ Delete The Directory With All Content In This Directory
+- rm + -d + directory name ⇒ Delete Empty Directory
+- rm + - r f + file or directory name ⇒ remove write-protected regular file 'repos\/.git/objects/05/ec8ca455e060c46a83ed6014ff0f80694826f6'?
+- echo + “ data “ + > or >> + file.txt name ⇒ Create File.txt And Fill Data In The File.txt
+- cat + file.txt name ⇒ Display Data File In Terminal.
+- cat + old file.txt name + > or >> + new file.txt name ⇒ Copy The File.txt
+- cat + *  ⇒  Display All File.txt
+- grep + data name + file.txt ⇒ Search For Data Name In This File
+- grep + data name + -r ⇒ Search For Data Name In All File.txt And Display The Data
+- grep + data name + -r + directory name ⇒ Search For Data Name In All File.txt And Display The Data
+- grep + data name + -r  + -L ⇒ Search For Data Name In All File.txt Without Display The                     Data
+- file + data name ⇒ Give You Info About Data Name ( Data Name : File, Docx, txt, etc… )
+- file + * ⇒ Give You Info About All Data Nam ( Data Name : File, Docx, txt, etc… )
+- command line + /? ⇒ Give You The Manual Of This Command Line
+- tree + /a ⇒ Display All Directories you have besides each other
+- osk ⇒ Display A Keyboard To Use It
+- tasklist ⇒ Use To Display All Process That Happens In ( Ctrl + Alt + Delete )
+- explorer + file.txt or directory ⇒ Open This Thing
+- alias ⇒ Use To Show Shortcuts Or To Create Shortcut
+- ipconfig ⇒ Use To Display Your IP
+- Command Line + & + Command Linde ⇒ You Can Use Two Command Line In The Same Time
+- whoami ⇒ Use To Tell You Who Am You ( Laptop Name )
+- ping + Website Link ⇒ Use To Send A Packet To This Website To Check If It Work Or Not
+- ping + Website Link + > + new file.txt ⇒ Use To Copy All Link Info And Put This Info In File.txt
+- ipconfig + | +clip ⇒ Use to Take Copy All Info Of IP Config But This Time You Need To Click Past as  You Past Anything.
+- chmod + “ +x  “  + file name ⇒ It’s like a function and this is standard for ‘ Change Mode’
+- . + / ⇒ Use To Call The chmod
+- .   ⇒ This Is The Parent
+- ..   ⇒ This Is The Parent Of Me
+- ln  + -s + path of the target file or directory ⇒ Use To Create Soft Links (Shortcut) Between Files Or Directories.
+- ln + path of the target file or directory ⇒ This is the hard link
+- type + command line or program ⇒ Use To Show The Type Of Command Line Or Program
+- which + command line or program ⇒ Use To Show The Type Of Command Line Or Program
+- man ⇒ Use To Display The Manual Page For A Command Or Program
+- su + user name ⇒ Use To Switch User
+- sudo + passwd + user name ⇒ Use To Change The Password
+- cat + /etc/passwd ⇒ Use To Display All Groups And Users
+- sudo + addgroup + group name ⇒ Use To Add New Group
+- sudo + usermod + -aG  + group name + username who you want to add  ⇒ Use To Add User To A Group
+- sudo + adduser + - - ingroup + group name + username who you want to add ⇒ Use To Add Group And User At The Same Time
+- id  ⇒ Use To Know The User ID, Group ID and Groups
+- id -u ⇒ Use To Know The ID User
+- sudo + groupdel  + group name ⇒ Use To Delete A group
+- sudo + gpasswd + -d + username groupname ⇒ Use To Delete Both Of Them
+- cut -d: -f1 /etc/passwd ⇒ Use To List All Users
+- cut -d: -f1 /etc/group ⇒ Use To List All Groups
+- sudo + addgroup + -gid + ID + Name of group ⇒ Use To Create A Group
+- sudo + getent + group + group name ⇒ Use To Get Info About Group
+- sudo + addgroup + group name which you want to add to group + group name which you want to  receive a group ⇒ Use To Add A group To Another Group
+- sudo + gpasswd + -d + user name + group name ⇒ Use To Remove User From Group
+- sudo + chgrp  + group name + file name ⇒ Use To Change The Owner Group Name
